@@ -23,16 +23,16 @@ This project implements the COS-FFT (Fourier Cosine Series Expansion with Fast F
 
 ## Configuration
 Users can customize the following parameters in the code:
--**Stock selection**
-  - ticker: Stock symbol (default: "AAPL") - Change to any valid stock symbol like "MSFT", "GOOGL", etc.
--**Model parameters**
-  - r: Risk-free rate (default: 0) - Set to appropriate current risk-free rate
-  - sigma: Initial volatility at time 0 (default: 0.3) - Adjust based on market conditions
-  - kappa: Speed of mean reversion (default: 1.5768) - Higher values mean faster reversion to mean volatility
-  - theta: Long-term variance level (default: 0.4) - The equilibrium volatility level
-  - volvol: Volatility of volatility (default: 0.6) - Controls how much volatility fluctuates
-  - rho: Correlation between stock price and volatility (default: -0.6) - Typically negative for equity markets
+- **Stock selection**
+  - **ticker**: Stock symbol (default: "AAPL") - Change to any valid stock symbol like "MSFT", "GOOGL", etc.
+- **Model parameters**
+  - **r**: Risk-free rate (default: 0) - Set to appropriate current risk-free rate
+  - **sigma**: Initial volatility at time 0 (default: 0.3) - Adjust based on market conditions
+  - **kappa**: Speed of mean reversion (default: 1.5768) - Higher values mean faster reversion to mean volatility
+  - **theta**: Long-term variance level (default: 0.4) - The equilibrium volatility level
+  - **volvol**: Volatility of volatility (default: 0.6) - Controls how much volatility fluctuates
+  - **rho**: Correlation between stock price and volatility (default: -0.6) - Typically negative for equity markets
 
--**Expiration settings**
-  - e_date: Expiration date selection (default: stock.options[8]) - Choose from available expiration dates by changing the index
+- **Expiration settings**
+  - **e_date**: Expiration date selection (default: stock.options[8]) - Choose from available expiration dates by changing the index
 
