@@ -21,17 +21,4 @@ This project implements the COS-FFT (Fourier Cosine Series Expansion with Fast F
 
 - **Market Data Integration**: Automatic download of real option chain data using Yahoo Finance
 
-Configuration
-Users can customize the following parameters in the code to suit their preferences:
-
-Parameter	Description	Default Value
-ticker	Stock symbol	"AAPL"
-r	Risk-free rate	0
-sigma	Initial volatility at time 0	0.3
-kappa	Speed of mean reversion	1.5768
-theta	Long-term variance level	0.4
-volvol	Volatility of volatility	0.6
-rho	Correlation between stock price and volatility	-0.6
-e_date	Expiration date selection	stock.options[8]
-L	Truncation range parameter	80
-N	Number of points for COS-FFT	15
+## Configuration
